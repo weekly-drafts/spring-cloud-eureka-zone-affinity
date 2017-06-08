@@ -1,0 +1,8 @@
+server.port: 8182
+
+eureka:
+  instance:
+    metadataMap.zone: zone2
+  client:
+    availabilityZones:
+      region-1: zone2,zone1

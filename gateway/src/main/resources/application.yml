@@ -1,0 +1,11 @@
+eureka:
+  client:
+    preferSameZoneEureka: true
+    region: region-1
+    serviceUrl:
+      zone1: http://localhost:8761/eureka/
+      zone2: http://127.0.0.1:8762/eureka/
+
+spring:
+  profiles.active: zone1
+  application.name: gateway
