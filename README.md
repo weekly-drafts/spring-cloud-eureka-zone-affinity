@@ -1,4 +1,4 @@
-Spring Cloud Eureka - Zone Affinity
+Spring Cloud Eureka Zone Affinity - Sample
 ---
 
 This is a sample to guide developers into zone affinity configuration for Spring 
