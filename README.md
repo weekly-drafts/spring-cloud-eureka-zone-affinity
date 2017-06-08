@@ -108,7 +108,7 @@ order:
  $ java -jar dummy/target/*.jar --spring.profiles.active=zone2 
 ```
 
-#### Validation
+### Validation
 What differs each zone on every application is the `server.port` where it is running, herewith a list for all of them:
   * Gateway
     * zone1: 8080
@@ -131,8 +131,7 @@ This will give a String response with the current zone for dummy service, in thi
 the same endpoint for the gateway on `zone2` i.e on port `8081` the response will be `zone2` always picking up servers in
 the same zone.  
 
-#### Zone failover validation
-
+### Zone failover validation
 To validate the failover between zones you just need to stop one of the instances and make a request to the opposite 
 zone e.g:
 
