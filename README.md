@@ -131,6 +131,8 @@ This will give a String response with the current zone for dummy service, in thi
 the same endpoint for the gateway on `zone2` i.e on port `8081` the response will be `zone2` always picking up servers in
 the same zone.  
 
+#### Zone failover validation
+
 To validate the failover between zones you just need to stop one of the instances and make a request to the opposite 
 zone e.g:
 
