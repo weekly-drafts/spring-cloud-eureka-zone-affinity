@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.marcosbarbero</groupId>
+        <groupId>com.marcosbarbero.wd</groupId>
         <artifactId>eureka-zone-affinity</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>dummy-service</artifactId>
+    <artifactId>simple-service</artifactId>
 
 </project>
